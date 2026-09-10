@@ -79,7 +79,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       const contentType = res.headers.get('content-type') || ''
       if (!contentType.includes('application/json')) {
         if (!res.ok) throw new Error(`Server error: ${res.status} ${res.statusText}`)
-        throw new Error('Cannot connect to server. Make sure the backend is running on port 8000.')
+        throw new Error('Backend returned non-JSON response. Please check server routing.')
       }
 
       const data = await res.json()
@@ -91,7 +91,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       await fetchProfile(t)
     } catch (e: any) {
       const msg = e.message === 'Failed to fetch'
-        ? 'Cannot connect to server. Make sure the backend is running on port 8000.'
+        ? 'Cannot connect to backend server. Please try again in a few seconds.'
         : (e.message || 'Login failed')
       setError(msg)
       throw new Error(msg)
@@ -115,14 +115,14 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       const contentType = res.headers.get('content-type') || ''
       if (!contentType.includes('application/json')) {
         if (!res.ok) throw new Error(`Server error: ${res.status} ${res.statusText}`)
-        throw new Error('Cannot connect to server. Make sure the backend is running on port 8000.')
+        throw new Error('Backend returned invalid response. Please check server status.')
       }
 
       const data = await res.json()
       if (!res.ok) throw new Error(data.detail || 'Signup failed')
     } catch (e: any) {
       const msg = e.message === 'Failed to fetch'
-        ? 'Cannot connect to server. Make sure the backend is running on port 8000.'
+        ? 'Cannot connect to backend server. Please try again in a few seconds.'
         : (e.message || 'Signup failed')
       setError(msg)
       throw new Error(msg)
