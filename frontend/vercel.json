@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "https://your-backend.railway.app/api/$1" },
+    { "source": "/api/:path*", "destination": "https://urban-flood-nowcasting-fmwo.onrender.com/api/:path*" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
