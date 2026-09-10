@@ -2,12 +2,13 @@ import os
 from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession, async_sessionmaker
 from sqlalchemy.orm import declarative_base
 
-# The docker-compose provides postgresql://postgres:postgres@postgres:5432/ufns
-# For asyncpg, we need postgresql+asyncpg://
-DATABASE_URL = os.environ.get(
-    "DATABASE_URL", 
-    "postgresql+asyncpg://postgres:postgres@localhost:5432/ufns"
-).replace("postgresql://", "postgresql+asyncpg://")
+env_db = os.environ.get("DATABASE_URL")
+
+if env_db and "postgresql" in env_db:
+    DATABASE_URL = env_db.replace("postgresql://", "postgresql+asyncpg://")
+else:
+    # Fallback to SQLite (works out of the box anywhere without requiring a running Postgres server)
+    DATABASE_URL = "sqlite+aiosqlite:///./ufns.db"
 
 engine = create_async_engine(DATABASE_URL, echo=False)
 AsyncSessionLocal = async_sessionmaker(engine, expire_on_commit=False, class_=AsyncSession)

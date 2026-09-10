@@ -12,6 +12,7 @@ matplotlib
 SQLAlchemy
 GeoAlchemy2
 asyncpg
+aiosqlite
 bcrypt
 python-jose[cryptography]
 python-multipart
