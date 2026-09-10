@@ -18,7 +18,7 @@ const RISK_ICONS: Record<string, string> = {
   Green: '✅', Yellow: '⚠️', Orange: '🔶', Red: '🚨',
 }
 
-const API = '/api'
+import { API } from '../config'
 
 // Mock data for when backend isn't running
 const MOCK_ALERTS: Alert[] = [

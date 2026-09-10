@@ -51,7 +51,7 @@ interface LocationContextType {
 
 const LocationContext = createContext<LocationContextType | null>(null)
 
-const API = '/api'
+import { API } from '../config'
 
 export function LocationProvider({ children }: { children: React.ReactNode }) {
   const [selectedLocation, setSelectedLocation] = useState<SelectedLocation | null>(null)

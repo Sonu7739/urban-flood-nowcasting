@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState, useEffect, useCallback } from 'react'
+import { API as API_BASE } from '../config'
 
 interface User {
   id: number
@@ -29,7 +30,7 @@ interface SignupData {
 
 const AuthContext = createContext<AuthContextType | null>(null)
 
-const API_BASE = '/api'
+
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<User | null>(null)

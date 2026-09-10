@@ -9,7 +9,7 @@ interface Message {
   timestamp: string
 }
 
-const API = '/api'
+import { API } from '../config'
 
 const QUICK_QUESTIONS = [
   'Is my area safe?',

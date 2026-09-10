@@ -1,9 +1,8 @@
 import axios from 'axios'
-
-const API_BASE = import.meta.env.VITE_API_URL || ''
+import { API } from '../config'
 
 const api = axios.create({
-  baseURL: API_BASE,
+  baseURL: API,
   timeout: 15000,
   headers: { 'Content-Type': 'application/json' },
 })
@@ -71,43 +70,43 @@ export const ufnsApi = {
 
   /** Get rainfall grid */
   async getRainfall() {
-    const { data } = await api.get('/api/rainfall')
+    const { data } = await api.get('/rainfall')
     return data
   },
 
   /** Predict flood at a point */
   async predict(req: PredictRequest): Promise<PredictResponse> {
-    const { data } = await api.post('/api/predict', req)
+    const { data } = await api.post('/predict', req)
     return data
   },
 
   /** Get flood GeoJSON map */
   async getFloodMap(): Promise<GeoJSON.FeatureCollection> {
-    const { data } = await api.get('/api/map')
+    const { data } = await api.get('/map')
     return data
   },
 
   /** Get simulation summary */
   async getSummary(): Promise<SimulationSummary> {
-    const { data } = await api.get('/api/summary')
+    const { data } = await api.get('/summary')
     return data
   },
 
   /** Get active alerts */
   async getAlerts(): Promise<{ total_alerts: number; alerts: Alert[] }> {
-    const { data } = await api.get('/api/alerts')
+    const { data } = await api.get('/alerts')
     return data
   },
 
   /** Get model metrics */
   async getMetrics() {
-    const { data } = await api.get('/api/metrics')
+    const { data } = await api.get('/metrics')
     return data
   },
 
   /** Find safe route */
   async getRoute(startLat: number, startLon: number, endLat: number, endLon: number): Promise<RouteResult> {
-    const { data } = await api.get('/api/route', {
+    const { data } = await api.get('/route', {
       params: { start_lat: startLat, start_lon: startLon, end_lat: endLat, end_lon: endLon }
     })
     return data
@@ -115,13 +114,13 @@ export const ufnsApi = {
 
   /** Admin: inject rainfall */
   async injectRainfall(rainfall_mm_hr: number, duration_minutes = 60) {
-    const { data } = await api.post('/api/admin/simulate', { rainfall_mm_hr, duration_minutes })
+    const { data } = await api.post('/admin/simulate', { rainfall_mm_hr, duration_minutes })
     return data
   },
 
   /** Admin: reset */
   async resetSimulation() {
-    const { data } = await api.post('/api/admin/reset')
+    const { data } = await api.post('/admin/reset')
     return data
   },
 }

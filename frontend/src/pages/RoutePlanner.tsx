@@ -24,7 +24,7 @@ const endIcon = L.divIcon({
   iconSize: [16, 16], iconAnchor: [8, 8], className: '',
 })
 
-const API = '/api'
+import { API } from '../config'
 const NOMINATIM = 'https://nominatim.openstreetmap.org'
 const HEADERS = { 'User-Agent': 'UFNS/1.0' }
 

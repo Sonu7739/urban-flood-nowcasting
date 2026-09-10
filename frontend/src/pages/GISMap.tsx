@@ -17,7 +17,7 @@ L.Icon.Default.mergeOptions({
   shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
 })
 
-const API = '/api'
+import { API } from '../config'
 
 const RISK_COLOR: Record<string, string> = {
   Red: '#ef4444', Orange: '#f97316', Yellow: '#eab308', Green: '#22c55e',
