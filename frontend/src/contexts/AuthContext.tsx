@@ -77,6 +77,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       // calling res.json() would throw "Unexpected token 'T'"
       const contentType = res.headers.get('content-type') || ''
       if (!contentType.includes('application/json')) {
+        if (!res.ok) throw new Error(`Server error: ${res.status} ${res.statusText}`)
         throw new Error('Cannot connect to server. Make sure the backend is running on port 8000.')
       }
 
@@ -112,6 +113,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       // calling res.json() would throw "Unexpected token 'T'"
       const contentType = res.headers.get('content-type') || ''
       if (!contentType.includes('application/json')) {
+        if (!res.ok) throw new Error(`Server error: ${res.status} ${res.statusText}`)
         throw new Error('Cannot connect to server. Make sure the backend is running on port 8000.')
       }
 
