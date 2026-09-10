@@ -5,8 +5,9 @@ import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import {
   Search, Layers, Droplets, RefreshCw, MapPin, Navigation,
-  X, ChevronDown,
+  X, ChevronDown, Loader,
 } from 'lucide-react'
+import { useLocation } from '../contexts/LocationContext'
 
 // Fix leaflet default icon
 delete (L.Icon.Default.prototype as any)._getIconUrl
@@ -65,6 +66,7 @@ function FlyTo({ coords }: { coords: [number, number] | null }) {
 const LAYERS = ['Roads', 'Flood Heatmap', 'Rainfall', 'Drainage Network', 'Rivers', 'Risk Zones']
 
 export default function GISMap() {
+  const { setLocation, floodData, loading: floodLoading } = useLocation()
   const [floodGJ, setFloodGJ] = useState<GeoJSON.FeatureCollection>(mockFloodGeoJSON(70))
   const [rainfall, setRainfall] = useState(70)
   const [timeline, setTimeline] = useState(3)
@@ -110,6 +112,13 @@ export default function GISMap() {
     } finally { setLoading(false) }
   }, [rainfall])
 
+  // Whenever context provides new floodData, use it on the map
+  useEffect(() => {
+    if (floodData?.geojson?.features?.length) {
+      setFloodGJ(floodData.geojson as GeoJSON.FeatureCollection)
+    }
+  }, [floodData])
+
   useEffect(() => { refreshMap() }, [])
   useEffect(() => { setFloodGJ(mockFloodGeoJSON(rainfall)) }, [rainfall, timeline])
 
@@ -144,6 +153,13 @@ export default function GISMap() {
     setFlyTarget(pos)
     setQuery(r.display_name?.split(',')[0] ?? '')
     setSearchResults([])
+    // Trigger global location context → auto fetch flood prediction
+    setLocation({
+      lat: r.lat,
+      lon: r.lon,
+      name: r.display_name?.split(',')[0] ?? 'Selected Location',
+      radiusKm: 5,
+    })
   }
 
   // GPS
@@ -193,6 +209,8 @@ export default function GISMap() {
   const onMapClick = async (lat: number, lon: number) => {
     setMarkerPos([lat, lon])
     setFlyTarget([lat, lon])
+    // Trigger global location context → auto fetch flood prediction
+    setLocation({ lat, lon, name: `${lat.toFixed(4)}°N, ${lon.toFixed(4)}°E`, radiusKm: 5 })
   }
 
   const styleFeature = (f: GeoJSON.Feature | undefined) => {
@@ -358,9 +376,43 @@ export default function GISMap() {
         </div>
 
         <button className="btn btn-ghost" style={{ padding: '6px 10px' }} onClick={refreshMap}>
-          <RefreshCw size={14} className={loading ? 'spin' : ''} />
+          <RefreshCw size={14} className={(loading || floodLoading) ? 'spin' : ''} />
         </button>
       </div>
+
+      {/* Flood prediction banner */}
+      {floodLoading && (
+        <div style={{
+          padding: '8px 20px', background: 'rgba(0,212,170,0.08)',
+          borderBottom: '1px solid rgba(0,212,170,0.2)',
+          display: 'flex', alignItems: 'center', gap: 10, fontSize: 13,
+          color: '#00d4aa',
+        }}>
+          <Loader size={14} style={{ animation: 'spin 1s linear infinite' }} />
+          Fetching real flood prediction for selected area...
+        </div>
+      )}
+      {floodData && !floodLoading && (
+        <div style={{
+          padding: '7px 20px', background: 'rgba(255,255,255,0.03)',
+          borderBottom: '1px solid rgba(255,255,255,0.06)',
+          display: 'flex', alignItems: 'center', gap: 16, fontSize: 12,
+          flexWrap: 'wrap',
+        }}>
+          <span style={{ color: '#00d4aa', fontWeight: 700 }}>📍 {floodData.location}</span>
+          <span style={{ color: '#7d9bc0' }}>{floodData.summary.total_roads} roads analysed</span>
+          <span style={{ color: '#ef4444' }}>🔴 {floodData.summary.critical} critical</span>
+          <span style={{ color: '#f97316' }}>🟠 {floodData.summary.warning} warning</span>
+          <span style={{ color: '#eab308' }}>🟡 {floodData.summary.caution} caution</span>
+          <span style={{ color: '#22c55e' }}>🟢 {floodData.summary.safe} safe</span>
+          <span style={{ color: '#7d9bc0', marginLeft: 'auto' }}>
+            Max depth: <strong style={{ color: '#e8f0ff' }}>{floodData.summary.max_depth_cm} cm</strong>
+          </span>
+          <span style={{ color: '#7d9bc0', fontSize: 11 }}>
+            Source: {floodData.source === 'osm' ? '🗺 OpenStreetMap' : '🤖 Simulation'}
+          </span>
+        </div>
+      )}
 
       {/* Map */}
       <div style={{ flex: 1, position: 'relative' }}>

@@ -1,5 +1,7 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
+import { Component, type ReactNode } from 'react'
 import { AuthProvider, useAuth } from './contexts/AuthContext'
+import { LocationProvider } from './contexts/LocationContext'
 import Layout from './components/Layout'
 import Chatbot from './components/Chatbot'
 import Landing from './pages/Landing'
@@ -12,6 +14,40 @@ import GISMap from './pages/GISMap'
 import RoutePlanner from './pages/RoutePlanner'
 import Analytics from './pages/Analytics'
 import Alerts from './pages/Alerts'
+
+// ── Error Boundary ─────────────────────────────────────────────────────────────
+class ErrorBoundary extends Component<{ children: ReactNode; fallback?: ReactNode }, { error: Error | null }> {
+  state = { error: null }
+  static getDerivedStateFromError(error: Error) { return { error } }
+  render() {
+    if (this.state.error) {
+      return this.props.fallback ?? (
+        <div style={{
+          padding: 40, textAlign: 'center', color: '#ef4444',
+          background: 'rgba(239,68,68,0.08)', borderRadius: 16, margin: 24,
+          border: '1px solid rgba(239,68,68,0.3)',
+        }}>
+          <div style={{ fontSize: 32, marginBottom: 12 }}>⚠️</div>
+          <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 8 }}>Something went wrong</div>
+          <div style={{ fontSize: 13, color: '#7d9bc0', marginBottom: 20 }}>
+            {(this.state.error as Error).message}
+          </div>
+          <button
+            onClick={() => this.setState({ error: null })}
+            style={{
+              padding: '10px 24px', borderRadius: 10, border: 'none',
+              background: 'rgba(239,68,68,0.15)', color: '#ef4444',
+              cursor: 'pointer', fontWeight: 600,
+            }}
+          >
+            Try Again
+          </button>
+        </div>
+      )
+    }
+    return this.props.children
+  }
+}
 
 // ── Protected Route ────────────────────────────────────────────────────────────
 function RequireAuth({ children, adminOnly = false }: { children: JSX.Element; adminOnly?: boolean }) {
@@ -38,7 +74,11 @@ function AppContent() {
           {/* Citizen routes */}
           <Route path="/dashboard" element={<CitizenDashboard />} />
           <Route path="/map"       element={<GISMap />} />
-          <Route path="/route"     element={<RoutePlanner />} />
+          <Route path="/route"     element={
+            <ErrorBoundary>
+              <RoutePlanner />
+            </ErrorBoundary>
+          } />
           <Route path="/analytics" element={<Analytics />} />
           <Route path="/alerts"    element={<Alerts />} />
           <Route path="/profile"   element={<Profile />} />
@@ -63,7 +103,9 @@ function AppContent() {
 export default function App() {
   return (
     <AuthProvider>
-      <AppContent />
+      <LocationProvider>
+        <AppContent />
+      </LocationProvider>
     </AuthProvider>
   )
 }

@@ -40,7 +40,7 @@ PROJECT_ROOT = BACKEND_DIR.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
 from backend.routers import rainfall, predict, mapdata, route, admin, auth
-from backend.routers import emergency, location, saferoute, chat, alertrouter
+from backend.routers import emergency, location, saferoute, chat, alertrouter, flood_predict
 from backend.database import engine, Base
 import backend.models.user        # noqa – register ORM models
 import backend.models.emergency   # noqa
@@ -134,6 +134,7 @@ app.include_router(location.router,    prefix="/api",       tags=["Location"])
 app.include_router(saferoute.router,   prefix="/api",       tags=["SafeRoute"])
 app.include_router(chat.router,        prefix="/api",       tags=["Chat"])
 app.include_router(alertrouter.router, prefix="/api",       tags=["Alerts"])
+app.include_router(flood_predict.router, prefix="/api",     tags=["FloodPredict"])
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
