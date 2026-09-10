@@ -114,20 +114,12 @@ app = FastAPI(
 )
 
 # ─── CORS ─────────────────────────────────────────────────────────────────────
-# NOTE: allow_credentials=True is incompatible with allow_origins=["*"].
-# We list known origins explicitly; the wildcard pattern covers Vercel preview URLs.
+# Auth uses JWT Bearer tokens (not cookies) so allow_credentials is not needed.
+# allow_origins=["*"] is safe here.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:3000",
-        "http://127.0.0.1:3000",
-        "https://urban-flood-nowcasting-fmwo.onrender.com",
-        # Vercel deployment URLs — update with your actual Vercel domain
-        "https://urban-flood-nowcasting.vercel.app",
-        # Allow all vercel.app preview deployments
-        "https://*.vercel.app",
-    ],
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
