@@ -72,6 +72,14 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: formData,
       })
+
+      // Guard: if the response isn't JSON (e.g. proxy/server returns HTML)
+      // calling res.json() would throw "Unexpected token 'T'"
+      const contentType = res.headers.get('content-type') || ''
+      if (!contentType.includes('application/json')) {
+        throw new Error('Cannot connect to server. Make sure the backend is running on port 8000.')
+      }
+
       const data = await res.json()
       if (!res.ok) throw new Error(data.detail || 'Login failed')
       
@@ -99,6 +107,14 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(signupData),
       })
+
+      // Guard: if the response isn't JSON (e.g. proxy/server returns HTML)
+      // calling res.json() would throw "Unexpected token 'T'"
+      const contentType = res.headers.get('content-type') || ''
+      if (!contentType.includes('application/json')) {
+        throw new Error('Cannot connect to server. Make sure the backend is running on port 8000.')
+      }
+
       const data = await res.json()
       if (!res.ok) throw new Error(data.detail || 'Signup failed')
     } catch (e: any) {
