@@ -1,0 +1,37 @@
+{
+  "name": "ufns-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Urban Flood Nowcasting System — React Dashboard",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives"
+  },
+  "dependencies": {
+    "@types/jwt-decode": "^2.2.1",
+    "axios": "^1.7.3",
+    "clsx": "^2.1.1",
+    "date-fns": "^3.6.0",
+    "framer-motion": "^13.2.0",
+    "jwt-decode": "^4.0.0",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.427.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.26.0",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.12",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^9.7.0",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.4"
+  }
+}

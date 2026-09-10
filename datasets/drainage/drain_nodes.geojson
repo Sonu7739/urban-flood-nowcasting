@@ -1,0 +1,3205 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.905807,
+          18.89457
+        ]
+      },
+      "properties": {
+        "id": "N0000",
+        "type": "inlet",
+        "capacity": 107.7,
+        "depth_m": 2.78
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.945995,
+          19.103587
+        ]
+      },
+      "properties": {
+        "id": "N0001",
+        "type": "junction",
+        "capacity": 331.3,
+        "depth_m": 2.83
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.852194,
+          19.008057
+        ]
+      },
+      "properties": {
+        "id": "N0002",
+        "type": "inlet",
+        "capacity": 208.1,
+        "depth_m": 3.81
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.841783,
+          18.963849
+        ]
+      },
+      "properties": {
+        "id": "N0003",
+        "type": "manhole",
+        "capacity": 88.2,
+        "depth_m": 3.91
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.809049,
+          18.915789
+        ]
+      },
+      "properties": {
+        "id": "N0004",
+        "type": "inlet",
+        "capacity": 292.3,
+        "depth_m": 1.63
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.900651,
+          19.215347
+        ]
+      },
+      "properties": {
+        "id": "N0005",
+        "type": "junction",
+        "capacity": 455.6,
+        "depth_m": 2.43
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.775114,
+          19.05788
+        ]
+      },
+      "properties": {
+        "id": "N0006",
+        "type": "junction",
+        "capacity": 192.4,
+        "depth_m": 3.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.955915,
+          19.099015
+        ]
+      },
+      "properties": {
+        "id": "N0007",
+        "type": "inlet",
+        "capacity": 95.0,
+        "depth_m": 3.86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.956635,
+          19.068693
+        ]
+      },
+      "properties": {
+        "id": "N0008",
+        "type": "inlet",
+        "capacity": 350.3,
+        "depth_m": 2.08
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.870278,
+          19.015334
+        ]
+      },
+      "properties": {
+        "id": "N0009",
+        "type": "inlet",
+        "capacity": 273.6,
+        "depth_m": 4.47
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.893242,
+          19.206152
+        ]
+      },
+      "properties": {
+        "id": "N0010",
+        "type": "manhole",
+        "capacity": 179.3,
+        "depth_m": 1.67
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.821954,
+          19.030811
+        ]
+      },
+      "properties": {
+        "id": "N0011",
+        "type": "junction",
+        "capacity": 384.3,
+        "depth_m": 1.82
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.847473,
+          18.907893
+        ]
+      },
+      "properties": {
+        "id": "N0012",
+        "type": "junction",
+        "capacity": 80.3,
+        "depth_m": 4.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.849883,
+          19.040842
+        ]
+      },
+      "properties": {
+        "id": "N0013",
+        "type": "inlet",
+        "capacity": 84.5,
+        "depth_m": 4.38
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.869569,
+          19.191651
+        ]
+      },
+      "properties": {
+        "id": "N0014",
+        "type": "junction",
+        "capacity": 293.0,
+        "depth_m": 2.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.888535,
+          18.970506
+        ]
+      },
+      "properties": {
+        "id": "N0015",
+        "type": "inlet",
+        "capacity": 352.2,
+        "depth_m": 3.42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.888732,
+          19.121138
+        ]
+      },
+      "properties": {
+        "id": "N0016",
+        "type": "manhole",
+        "capacity": 133.9,
+        "depth_m": 3.25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.940708,
+          19.254847
+        ]
+      },
+      "properties": {
+        "id": "N0017",
+        "type": "junction",
+        "capacity": 260.3,
+        "depth_m": 4.78
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.966138,
+          19.193573
+        ]
+      },
+      "properties": {
+        "id": "N0018",
+        "type": "junction",
+        "capacity": 458.1,
+        "depth_m": 4.77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.890122,
+          19.120703
+        ]
+      },
+      "properties": {
+        "id": "N0019",
+        "type": "junction",
+        "capacity": 213.9,
+        "depth_m": 2.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.946072,
+          19.168573
+        ]
+      },
+      "properties": {
+        "id": "N0020",
+        "type": "manhole",
+        "capacity": 429.9,
+        "depth_m": 2.94
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.964572,
+          19.123571
+        ]
+      },
+      "properties": {
+        "id": "N0021",
+        "type": "manhole",
+        "capacity": 170.1,
+        "depth_m": 2.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.908283,
+          18.972579
+        ]
+      },
+      "properties": {
+        "id": "N0022",
+        "type": "manhole",
+        "capacity": 232.6,
+        "depth_m": 1.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.95332,
+          18.881082
+        ]
+      },
+      "properties": {
+        "id": "N0023",
+        "type": "manhole",
+        "capacity": 189.7,
+        "depth_m": 3.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.978301,
+          19.038808
+        ]
+      },
+      "properties": {
+        "id": "N0024",
+        "type": "inlet",
+        "capacity": 140.9,
+        "depth_m": 2.45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.954814,
+          18.973359
+        ]
+      },
+      "properties": {
+        "id": "N0025",
+        "type": "manhole",
+        "capacity": 346.4,
+        "depth_m": 2.12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.881744,
+          19.255515
+        ]
+      },
+      "properties": {
+        "id": "N0026",
+        "type": "manhole",
+        "capacity": 59.0,
+        "depth_m": 4.51
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.838535,
+          18.995562
+        ]
+      },
+      "properties": {
+        "id": "N0027",
+        "type": "manhole",
+        "capacity": 78.6,
+        "depth_m": 4.84
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.973715,
+          19.138669
+        ]
+      },
+      "properties": {
+        "id": "N0028",
+        "type": "inlet",
+        "capacity": 228.6,
+        "depth_m": 4.44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.901324,
+          18.964416
+        ]
+      },
+      "properties": {
+        "id": "N0029",
+        "type": "manhole",
+        "capacity": 275.1,
+        "depth_m": 1.92
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.988425,
+          19.201593
+        ]
+      },
+      "properties": {
+        "id": "N0030",
+        "type": "junction",
+        "capacity": 469.2,
+        "depth_m": 2.38
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.798124,
+          18.965231
+        ]
+      },
+      "properties": {
+        "id": "N0031",
+        "type": "manhole",
+        "capacity": 413.0,
+        "depth_m": 2.65
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.955344,
+          19.164895
+        ]
+      },
+      "properties": {
+        "id": "N0032",
+        "type": "junction",
+        "capacity": 384.8,
+        "depth_m": 4.77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.810285,
+          18.927711
+        ]
+      },
+      "properties": {
+        "id": "N0033",
+        "type": "manhole",
+        "capacity": 486.5,
+        "depth_m": 3.04
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.782863,
+          19.21516
+        ]
+      },
+      "properties": {
+        "id": "N0034",
+        "type": "inlet",
+        "capacity": 290.1,
+        "depth_m": 3.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.86747,
+          18.996596
+        ]
+      },
+      "properties": {
+        "id": "N0035",
+        "type": "manhole",
+        "capacity": 357.2,
+        "depth_m": 4.87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.934604,
+          19.015199
+        ]
+      },
+      "properties": {
+        "id": "N0036",
+        "type": "manhole",
+        "capacity": 419.6,
+        "depth_m": 1.57
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.940073,
+          18.883924
+        ]
+      },
+      "properties": {
+        "id": "N0037",
+        "type": "junction",
+        "capacity": 409.5,
+        "depth_m": 1.69
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.897127,
+          18.96587
+        ]
+      },
+      "properties": {
+        "id": "N0038",
+        "type": "junction",
+        "capacity": 189.2,
+        "depth_m": 4.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.927607,
+          19.231263
+        ]
+      },
+      "properties": {
+        "id": "N0039",
+        "type": "inlet",
+        "capacity": 290.7,
+        "depth_m": 2.33
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.979251,
+          19.025388
+        ]
+      },
+      "properties": {
+        "id": "N0040",
+        "type": "inlet",
+        "capacity": 226.8,
+        "depth_m": 4.92
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.985354,
+          18.990355
+        ]
+      },
+      "properties": {
+        "id": "N0041",
+        "type": "inlet",
+        "capacity": 390.5,
+        "depth_m": 2.54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.915211,
+          19.236356
+        ]
+      },
+      "properties": {
+        "id": "N0042",
+        "type": "manhole",
+        "capacity": 445.8,
+        "depth_m": 4.18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.833028,
+          19.185727
+        ]
+      },
+      "properties": {
+        "id": "N0043",
+        "type": "inlet",
+        "capacity": 86.0,
+        "depth_m": 4.23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.864981,
+          19.058437
+        ]
+      },
+      "properties": {
+        "id": "N0044",
+        "type": "inlet",
+        "capacity": 428.5,
+        "depth_m": 4.01
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.930651,
+          19.19976
+        ]
+      },
+      "properties": {
+        "id": "N0045",
+        "type": "manhole",
+        "capacity": 277.9,
+        "depth_m": 2.73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.895977,
+          19.161693
+        ]
+      },
+      "properties": {
+        "id": "N0046",
+        "type": "junction",
+        "capacity": 197.0,
+        "depth_m": 3.93
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.81226,
+          19.126549
+        ]
+      },
+      "properties": {
+        "id": "N0047",
+        "type": "manhole",
+        "capacity": 249.5,
+        "depth_m": 3.74
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.914508,
+          19.030265
+        ]
+      },
+      "properties": {
+        "id": "N0048",
+        "type": "manhole",
+        "capacity": 191.2,
+        "depth_m": 1.79
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.93412,
+          18.969841
+        ]
+      },
+      "properties": {
+        "id": "N0049",
+        "type": "manhole",
+        "capacity": 395.4,
+        "depth_m": 3.77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.927723,
+          19.208784
+        ]
+      },
+      "properties": {
+        "id": "N0050",
+        "type": "manhole",
+        "capacity": 406.7,
+        "depth_m": 2.62
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.800707,
+          19.219402
+        ]
+      },
+      "properties": {
+        "id": "N0051",
+        "type": "inlet",
+        "capacity": 128.1,
+        "depth_m": 3.58
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.815693,
+          19.189811
+        ]
+      },
+      "properties": {
+        "id": "N0052",
+        "type": "inlet",
+        "capacity": 236.5,
+        "depth_m": 2.14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.973399,
+          19.247903
+        ]
+      },
+      "properties": {
+        "id": "N0053",
+        "type": "inlet",
+        "capacity": 151.0,
+        "depth_m": 4.82
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.914124,
+          19.128843
+        ]
+      },
+      "properties": {
+        "id": "N0054",
+        "type": "junction",
+        "capacity": 458.1,
+        "depth_m": 4.91
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.965921,
+          18.974713
+        ]
+      },
+      "properties": {
+        "id": "N0055",
+        "type": "manhole",
+        "capacity": 72.4,
+        "depth_m": 3.66
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.790484,
+          18.974063
+        ]
+      },
+      "properties": {
+        "id": "N0056",
+        "type": "junction",
+        "capacity": 215.6,
+        "depth_m": 4.82
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.890943,
+          18.875646
+        ]
+      },
+      "properties": {
+        "id": "N0057",
+        "type": "manhole",
+        "capacity": 398.0,
+        "depth_m": 4.75
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.821631,
+          19.06766
+        ]
+      },
+      "properties": {
+        "id": "N0058",
+        "type": "junction",
+        "capacity": 141.4,
+        "depth_m": 4.81
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.883659,
+          18.985185
+        ]
+      },
+      "properties": {
+        "id": "N0059",
+        "type": "inlet",
+        "capacity": 108.6,
+        "depth_m": 4.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.95954,
+          18.956227
+        ]
+      },
+      "properties": {
+        "id": "N0060",
+        "type": "junction",
+        "capacity": 377.0,
+        "depth_m": 2.16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.803567,
+          19.03341
+        ]
+      },
+      "properties": {
+        "id": "N0061",
+        "type": "manhole",
+        "capacity": 180.6,
+        "depth_m": 2.42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.827113,
+          19.050391
+        ]
+      },
+      "properties": {
+        "id": "N0062",
+        "type": "junction",
+        "capacity": 312.3,
+        "depth_m": 3.77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.800637,
+          18.874128
+        ]
+      },
+      "properties": {
+        "id": "N0063",
+        "type": "manhole",
+        "capacity": 195.5,
+        "depth_m": 3.93
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.858204,
+          18.954887
+        ]
+      },
+      "properties": {
+        "id": "N0064",
+        "type": "junction",
+        "capacity": 240.5,
+        "depth_m": 3.59
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.783513,
+          18.908112
+        ]
+      },
+      "properties": {
+        "id": "N0065",
+        "type": "manhole",
+        "capacity": 199.8,
+        "depth_m": 2.32
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.986044,
+          19.268696
+        ]
+      },
+      "properties": {
+        "id": "N0066",
+        "type": "inlet",
+        "capacity": 485.2,
+        "depth_m": 3.59
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.771233,
+          19.193941
+        ]
+      },
+      "properties": {
+        "id": "N0067",
+        "type": "junction",
+        "capacity": 277.0,
+        "depth_m": 2.83
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.800415,
+          19.138505
+        ]
+      },
+      "properties": {
+        "id": "N0068",
+        "type": "inlet",
+        "capacity": 451.5,
+        "depth_m": 1.64
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.885862,
+          18.974117
+        ]
+      },
+      "properties": {
+        "id": "N0069",
+        "type": "manhole",
+        "capacity": 468.6,
+        "depth_m": 4.57
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.933359,
+          18.905859
+        ]
+      },
+      "properties": {
+        "id": "N0070",
+        "type": "manhole",
+        "capacity": 244.8,
+        "depth_m": 2.41
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.79941,
+          18.887665
+        ]
+      },
+      "properties": {
+        "id": "N0071",
+        "type": "inlet",
+        "capacity": 442.3,
+        "depth_m": 4.42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.86892,
+          19.014237
+        ]
+      },
+      "properties": {
+        "id": "N0072",
+        "type": "junction",
+        "capacity": 456.3,
+        "depth_m": 2.42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.870228,
+          19.076789
+        ]
+      },
+      "properties": {
+        "id": "N0073",
+        "type": "inlet",
+        "capacity": 124.2,
+        "depth_m": 4.08
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.804791,
+          19.17547
+        ]
+      },
+      "properties": {
+        "id": "N0074",
+        "type": "inlet",
+        "capacity": 433.9,
+        "depth_m": 3.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.804183,
+          18.891289
+        ]
+      },
+      "properties": {
+        "id": "N0075",
+        "type": "inlet",
+        "capacity": 153.4,
+        "depth_m": 1.63
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.877441,
+          18.935422
+        ]
+      },
+      "properties": {
+        "id": "N0076",
+        "type": "inlet",
+        "capacity": 102.2,
+        "depth_m": 4.63
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.852,
+          18.886317
+        ]
+      },
+      "properties": {
+        "id": "N0077",
+        "type": "inlet",
+        "capacity": 369.1,
+        "depth_m": 3.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.935546,
+          18.914996
+        ]
+      },
+      "properties": {
+        "id": "N0078",
+        "type": "inlet",
+        "capacity": 116.6,
+        "depth_m": 2.72
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.811551,
+          19.217269
+        ]
+      },
+      "properties": {
+        "id": "N0079",
+        "type": "manhole",
+        "capacity": 125.7,
+        "depth_m": 3.28
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.922522,
+          19.095299
+        ]
+      },
+      "properties": {
+        "id": "N0080",
+        "type": "inlet",
+        "capacity": 145.6,
+        "depth_m": 4.99
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.901281,
+          19.080406
+        ]
+      },
+      "properties": {
+        "id": "N0081",
+        "type": "manhole",
+        "capacity": 237.4,
+        "depth_m": 1.77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.974095,
+          19.140763
+        ]
+      },
+      "properties": {
+        "id": "N0082",
+        "type": "inlet",
+        "capacity": 61.7,
+        "depth_m": 3.88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.855918,
+          18.918796
+        ]
+      },
+      "properties": {
+        "id": "N0083",
+        "type": "junction",
+        "capacity": 468.1,
+        "depth_m": 1.87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.788645,
+          18.93151
+        ]
+      },
+      "properties": {
+        "id": "N0084",
+        "type": "inlet",
+        "capacity": 423.8,
+        "depth_m": 3.81
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.831943,
+          19.121343
+        ]
+      },
+      "properties": {
+        "id": "N0085",
+        "type": "inlet",
+        "capacity": 346.1,
+        "depth_m": 2.65
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.988706,
+          19.132469
+        ]
+      },
+      "properties": {
+        "id": "N0086",
+        "type": "manhole",
+        "capacity": 196.2,
+        "depth_m": 4.06
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.953318,
+          19.232751
+        ]
+      },
+      "properties": {
+        "id": "N0087",
+        "type": "junction",
+        "capacity": 108.2,
+        "depth_m": 4.52
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.953574,
+          18.983182
+        ]
+      },
+      "properties": {
+        "id": "N0088",
+        "type": "junction",
+        "capacity": 384.7,
+        "depth_m": 3.42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.861737,
+          19.022556
+        ]
+      },
+      "properties": {
+        "id": "N0089",
+        "type": "junction",
+        "capacity": 130.1,
+        "depth_m": 4.88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.96604,
+          18.905675
+        ]
+      },
+      "properties": {
+        "id": "N0090",
+        "type": "inlet",
+        "capacity": 123.3,
+        "depth_m": 4.23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.989519,
+          19.128867
+        ]
+      },
+      "properties": {
+        "id": "N0091",
+        "type": "inlet",
+        "capacity": 119.4,
+        "depth_m": 2.54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.981991,
+          19.164356
+        ]
+      },
+      "properties": {
+        "id": "N0092",
+        "type": "inlet",
+        "capacity": 456.7,
+        "depth_m": 3.61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.961372,
+          19.136208
+        ]
+      },
+      "properties": {
+        "id": "N0093",
+        "type": "inlet",
+        "capacity": 280.7,
+        "depth_m": 3.21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.899503,
+          19.060576
+        ]
+      },
+      "properties": {
+        "id": "N0094",
+        "type": "inlet",
+        "capacity": 240.4,
+        "depth_m": 4.15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.869844,
+          19.115547
+        ]
+      },
+      "properties": {
+        "id": "N0095",
+        "type": "inlet",
+        "capacity": 241.7,
+        "depth_m": 1.64
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.925581,
+          19.259309
+        ]
+      },
+      "properties": {
+        "id": "N0096",
+        "type": "inlet",
+        "capacity": 341.4,
+        "depth_m": 4.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.918862,
+          19.080911
+        ]
+      },
+      "properties": {
+        "id": "N0097",
+        "type": "inlet",
+        "capacity": 87.8,
+        "depth_m": 3.14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.879851,
+          19.232883
+        ]
+      },
+      "properties": {
+        "id": "N0098",
+        "type": "manhole",
+        "capacity": 116.9,
+        "depth_m": 1.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.890311,
+          19.206615
+        ]
+      },
+      "properties": {
+        "id": "N0099",
+        "type": "inlet",
+        "capacity": 183.0,
+        "depth_m": 1.67
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.888085,
+          19.236921
+        ]
+      },
+      "properties": {
+        "id": "N0100",
+        "type": "manhole",
+        "capacity": 279.8,
+        "depth_m": 2.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.90075,
+          19.134342
+        ]
+      },
+      "properties": {
+        "id": "N0101",
+        "type": "inlet",
+        "capacity": 164.0,
+        "depth_m": 2.39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.773742,
+          19.177459
+        ]
+      },
+      "properties": {
+        "id": "N0102",
+        "type": "manhole",
+        "capacity": 383.2,
+        "depth_m": 3.12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.78041,
+          19.207164
+        ]
+      },
+      "properties": {
+        "id": "N0103",
+        "type": "manhole",
+        "capacity": 237.3,
+        "depth_m": 3.97
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.87465,
+          19.104883
+        ]
+      },
+      "properties": {
+        "id": "N0104",
+        "type": "inlet",
+        "capacity": 351.6,
+        "depth_m": 3.68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.981166,
+          19.006534
+        ]
+      },
+      "properties": {
+        "id": "N0105",
+        "type": "inlet",
+        "capacity": 414.5,
+        "depth_m": 2.24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.908932,
+          19.168812
+        ]
+      },
+      "properties": {
+        "id": "N0106",
+        "type": "manhole",
+        "capacity": 442.2,
+        "depth_m": 1.87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.860835,
+          18.877166
+        ]
+      },
+      "properties": {
+        "id": "N0107",
+        "type": "junction",
+        "capacity": 56.0,
+        "depth_m": 3.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.96982,
+          19.146722
+        ]
+      },
+      "properties": {
+        "id": "N0108",
+        "type": "inlet",
+        "capacity": 484.6,
+        "depth_m": 3.61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.95702,
+          18.99112
+        ]
+      },
+      "properties": {
+        "id": "N0109",
+        "type": "inlet",
+        "capacity": 327.5,
+        "depth_m": 3.92
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.955067,
+          19.140041
+        ]
+      },
+      "properties": {
+        "id": "N0110",
+        "type": "junction",
+        "capacity": 89.4,
+        "depth_m": 1.97
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.773654,
+          18.914765
+        ]
+      },
+      "properties": {
+        "id": "N0111",
+        "type": "manhole",
+        "capacity": 486.7,
+        "depth_m": 4.51
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.803385,
+          19.062447
+        ]
+      },
+      "properties": {
+        "id": "N0112",
+        "type": "manhole",
+        "capacity": 158.8,
+        "depth_m": 4.45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.839211,
+          18.946366
+        ]
+      },
+      "properties": {
+        "id": "N0113",
+        "type": "junction",
+        "capacity": 258.5,
+        "depth_m": 3.16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.977556,
+          18.916584
+        ]
+      },
+      "properties": {
+        "id": "N0114",
+        "type": "manhole",
+        "capacity": 382.5,
+        "depth_m": 3.06
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.967753,
+          19.058596
+        ]
+      },
+      "properties": {
+        "id": "N0115",
+        "type": "inlet",
+        "capacity": 313.4,
+        "depth_m": 2.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.860099,
+          19.20178
+        ]
+      },
+      "properties": {
+        "id": "N0116",
+        "type": "junction",
+        "capacity": 200.2,
+        "depth_m": 1.86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.865608,
+          19.042715
+        ]
+      },
+      "properties": {
+        "id": "N0117",
+        "type": "junction",
+        "capacity": 273.1,
+        "depth_m": 3.53
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.836878,
+          19.091722
+        ]
+      },
+      "properties": {
+        "id": "N0118",
+        "type": "junction",
+        "capacity": 269.4,
+        "depth_m": 3.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.985115,
+          19.159846
+        ]
+      },
+      "properties": {
+        "id": "N0119",
+        "type": "junction",
+        "capacity": 457.3,
+        "depth_m": 4.54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.891511,
+          19.155716
+        ]
+      },
+      "properties": {
+        "id": "N0120",
+        "type": "manhole",
+        "capacity": 239.9,
+        "depth_m": 2.61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.919109,
+          18.97714
+        ]
+      },
+      "properties": {
+        "id": "N0121",
+        "type": "manhole",
+        "capacity": 450.1,
+        "depth_m": 1.91
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.849756,
+          19.245586
+        ]
+      },
+      "properties": {
+        "id": "N0122",
+        "type": "junction",
+        "capacity": 363.9,
+        "depth_m": 1.57
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.877925,
+          19.160484
+        ]
+      },
+      "properties": {
+        "id": "N0123",
+        "type": "inlet",
+        "capacity": 247.1,
+        "depth_m": 3.28
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.848005,
+          19.233628
+        ]
+      },
+      "properties": {
+        "id": "N0124",
+        "type": "junction",
+        "capacity": 320.9,
+        "depth_m": 4.45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.97313,
+          19.057387
+        ]
+      },
+      "properties": {
+        "id": "N0125",
+        "type": "junction",
+        "capacity": 375.3,
+        "depth_m": 2.87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.924815,
+          19.203232
+        ]
+      },
+      "properties": {
+        "id": "N0126",
+        "type": "inlet",
+        "capacity": 380.6,
+        "depth_m": 4.29
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.834965,
+          19.118737
+        ]
+      },
+      "properties": {
+        "id": "N0127",
+        "type": "manhole",
+        "capacity": 387.2,
+        "depth_m": 3.83
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.805952,
+          18.939316
+        ]
+      },
+      "properties": {
+        "id": "N0128",
+        "type": "manhole",
+        "capacity": 271.5,
+        "depth_m": 4.28
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.81817,
+          18.991461
+        ]
+      },
+      "properties": {
+        "id": "N0129",
+        "type": "inlet",
+        "capacity": 71.2,
+        "depth_m": 1.56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.806479,
+          19.012818
+        ]
+      },
+      "properties": {
+        "id": "N0130",
+        "type": "inlet",
+        "capacity": 422.6,
+        "depth_m": 4.63
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.847679,
+          19.192726
+        ]
+      },
+      "properties": {
+        "id": "N0131",
+        "type": "manhole",
+        "capacity": 101.3,
+        "depth_m": 2.29
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.829299,
+          18.959638
+        ]
+      },
+      "properties": {
+        "id": "N0132",
+        "type": "junction",
+        "capacity": 203.1,
+        "depth_m": 2.74
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.898115,
+          19.178038
+        ]
+      },
+      "properties": {
+        "id": "N0133",
+        "type": "manhole",
+        "capacity": 453.3,
+        "depth_m": 4.49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.793953,
+          19.111716
+        ]
+      },
+      "properties": {
+        "id": "N0134",
+        "type": "junction",
+        "capacity": 72.7,
+        "depth_m": 4.81
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.943826,
+          19.255059
+        ]
+      },
+      "properties": {
+        "id": "N0135",
+        "type": "inlet",
+        "capacity": 488.6,
+        "depth_m": 4.24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.987898,
+          19.182863
+        ]
+      },
+      "properties": {
+        "id": "N0136",
+        "type": "junction",
+        "capacity": 420.6,
+        "depth_m": 1.65
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.797154,
+          18.936819
+        ]
+      },
+      "properties": {
+        "id": "N0137",
+        "type": "manhole",
+        "capacity": 142.4,
+        "depth_m": 2.77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.871549,
+          18.986849
+        ]
+      },
+      "properties": {
+        "id": "N0138",
+        "type": "junction",
+        "capacity": 277.7,
+        "depth_m": 4.06
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.853659,
+          18.931718
+        ]
+      },
+      "properties": {
+        "id": "N0139",
+        "type": "manhole",
+        "capacity": 418.6,
+        "depth_m": 1.93
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.865622,
+          19.045643
+        ]
+      },
+      "properties": {
+        "id": "N0140",
+        "type": "manhole",
+        "capacity": 396.1,
+        "depth_m": 2.36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.886155,
+          19.006528
+        ]
+      },
+      "properties": {
+        "id": "N0141",
+        "type": "inlet",
+        "capacity": 88.4,
+        "depth_m": 2.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.922949,
+          19.014257
+        ]
+      },
+      "properties": {
+        "id": "N0142",
+        "type": "inlet",
+        "capacity": 118.2,
+        "depth_m": 4.14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.801739,
+          19.184886
+        ]
+      },
+      "properties": {
+        "id": "N0143",
+        "type": "inlet",
+        "capacity": 243.0,
+        "depth_m": 4.71
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.888716,
+          19.250736
+        ]
+      },
+      "properties": {
+        "id": "N0144",
+        "type": "inlet",
+        "capacity": 357.0,
+        "depth_m": 4.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.772288,
+          18.928234
+        ]
+      },
+      "properties": {
+        "id": "N0145",
+        "type": "inlet",
+        "capacity": 412.8,
+        "depth_m": 4.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.86238,
+          19.005321
+        ]
+      },
+      "properties": {
+        "id": "N0146",
+        "type": "manhole",
+        "capacity": 397.6,
+        "depth_m": 3.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.921841,
+          19.173677
+        ]
+      },
+      "properties": {
+        "id": "N0147",
+        "type": "inlet",
+        "capacity": 338.7,
+        "depth_m": 4.66
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.995411,
+          19.261093
+        ]
+      },
+      "properties": {
+        "id": "N0148",
+        "type": "manhole",
+        "capacity": 409.6,
+        "depth_m": 4.57
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.97373,
+          19.037722
+        ]
+      },
+      "properties": {
+        "id": "N0149",
+        "type": "inlet",
+        "capacity": 365.4,
+        "depth_m": 4.56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.979123,
+          19.167079
+        ]
+      },
+      "properties": {
+        "id": "N0150",
+        "type": "junction",
+        "capacity": 53.6,
+        "depth_m": 2.48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.803778,
+          19.11416
+        ]
+      },
+      "properties": {
+        "id": "N0151",
+        "type": "junction",
+        "capacity": 231.8,
+        "depth_m": 3.75
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.912183,
+          19.119744
+        ]
+      },
+      "properties": {
+        "id": "N0152",
+        "type": "junction",
+        "capacity": 249.0,
+        "depth_m": 2.71
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.815378,
+          19.031802
+        ]
+      },
+      "properties": {
+        "id": "N0153",
+        "type": "junction",
+        "capacity": 185.7,
+        "depth_m": 1.63
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.935343,
+          19.025997
+        ]
+      },
+      "properties": {
+        "id": "N0154",
+        "type": "inlet",
+        "capacity": 445.9,
+        "depth_m": 3.32
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.791349,
+          18.983571
+        ]
+      },
+      "properties": {
+        "id": "N0155",
+        "type": "junction",
+        "capacity": 298.3,
+        "depth_m": 3.32
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.776415,
+          18.934011
+        ]
+      },
+      "properties": {
+        "id": "N0156",
+        "type": "junction",
+        "capacity": 408.5,
+        "depth_m": 3.57
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.839907,
+          19.202892
+        ]
+      },
+      "properties": {
+        "id": "N0157",
+        "type": "manhole",
+        "capacity": 240.2,
+        "depth_m": 3.27
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.855785,
+          18.893978
+        ]
+      },
+      "properties": {
+        "id": "N0158",
+        "type": "junction",
+        "capacity": 332.1,
+        "depth_m": 2.74
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.986509,
+          19.172624
+        ]
+      },
+      "properties": {
+        "id": "N0159",
+        "type": "manhole",
+        "capacity": 251.9,
+        "depth_m": 3.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.996079,
+          19.051259
+        ]
+      },
+      "properties": {
+        "id": "N0160",
+        "type": "manhole",
+        "capacity": 412.4,
+        "depth_m": 4.96
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.985634,
+          19.155859
+        ]
+      },
+      "properties": {
+        "id": "N0161",
+        "type": "junction",
+        "capacity": 349.5,
+        "depth_m": 4.46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.835443,
+          19.010135
+        ]
+      },
+      "properties": {
+        "id": "N0162",
+        "type": "manhole",
+        "capacity": 403.2,
+        "depth_m": 4.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.856863,
+          18.925989
+        ]
+      },
+      "properties": {
+        "id": "N0163",
+        "type": "junction",
+        "capacity": 381.9,
+        "depth_m": 1.87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.959254,
+          19.102948
+        ]
+      },
+      "properties": {
+        "id": "N0164",
+        "type": "junction",
+        "capacity": 212.6,
+        "depth_m": 1.84
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.864772,
+          19.040277
+        ]
+      },
+      "properties": {
+        "id": "N0165",
+        "type": "junction",
+        "capacity": 91.5,
+        "depth_m": 2.99
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.872618,
+          19.060501
+        ]
+      },
+      "properties": {
+        "id": "N0166",
+        "type": "manhole",
+        "capacity": 216.2,
+        "depth_m": 3.34
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.94913,
+          19.093587
+        ]
+      },
+      "properties": {
+        "id": "N0167",
+        "type": "junction",
+        "capacity": 442.4,
+        "depth_m": 3.55
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.871218,
+          19.039369
+        ]
+      },
+      "properties": {
+        "id": "N0168",
+        "type": "junction",
+        "capacity": 469.0,
+        "depth_m": 3.21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8032,
+          19.199525
+        ]
+      },
+      "properties": {
+        "id": "N0169",
+        "type": "inlet",
+        "capacity": 107.2,
+        "depth_m": 3.99
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.888033,
+          19.257213
+        ]
+      },
+      "properties": {
+        "id": "N0170",
+        "type": "manhole",
+        "capacity": 288.1,
+        "depth_m": 3.93
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.941694,
+          19.059342
+        ]
+      },
+      "properties": {
+        "id": "N0171",
+        "type": "inlet",
+        "capacity": 474.8,
+        "depth_m": 2.79
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.863983,
+          19.11064
+        ]
+      },
+      "properties": {
+        "id": "N0172",
+        "type": "manhole",
+        "capacity": 104.4,
+        "depth_m": 3.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.797081,
+          19.079111
+        ]
+      },
+      "properties": {
+        "id": "N0173",
+        "type": "manhole",
+        "capacity": 187.2,
+        "depth_m": 2.81
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.951977,
+          19.06437
+        ]
+      },
+      "properties": {
+        "id": "N0174",
+        "type": "inlet",
+        "capacity": 114.0,
+        "depth_m": 3.56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.840188,
+          19.244728
+        ]
+      },
+      "properties": {
+        "id": "N0175",
+        "type": "manhole",
+        "capacity": 177.6,
+        "depth_m": 2.14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.798135,
+          19.065517
+        ]
+      },
+      "properties": {
+        "id": "N0176",
+        "type": "junction",
+        "capacity": 206.9,
+        "depth_m": 4.55
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.841231,
+          19.062471
+        ]
+      },
+      "properties": {
+        "id": "N0177",
+        "type": "inlet",
+        "capacity": 253.6,
+        "depth_m": 2.68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.935608,
+          19.060091
+        ]
+      },
+      "properties": {
+        "id": "N0178",
+        "type": "inlet",
+        "capacity": 322.6,
+        "depth_m": 4.17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.945186,
+          19.124584
+        ]
+      },
+      "properties": {
+        "id": "N0179",
+        "type": "junction",
+        "capacity": 350.2,
+        "depth_m": 2.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.953957,
+          19.000087
+        ]
+      },
+      "properties": {
+        "id": "N0180",
+        "type": "junction",
+        "capacity": 349.0,
+        "depth_m": 2.93
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.84797,
+          19.230098
+        ]
+      },
+      "properties": {
+        "id": "N0181",
+        "type": "manhole",
+        "capacity": 70.6,
+        "depth_m": 3.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.918561,
+          19.164365
+        ]
+      },
+      "properties": {
+        "id": "N0182",
+        "type": "inlet",
+        "capacity": 439.7,
+        "depth_m": 3.98
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.947467,
+          19.122044
+        ]
+      },
+      "properties": {
+        "id": "N0183",
+        "type": "junction",
+        "capacity": 189.0,
+        "depth_m": 3.76
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.814258,
+          19.093741
+        ]
+      },
+      "properties": {
+        "id": "N0184",
+        "type": "junction",
+        "capacity": 328.4,
+        "depth_m": 3.52
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.890003,
+          19.252917
+        ]
+      },
+      "properties": {
+        "id": "N0185",
+        "type": "manhole",
+        "capacity": 387.8,
+        "depth_m": 3.26
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.985322,
+          18.918113
+        ]
+      },
+      "properties": {
+        "id": "N0186",
+        "type": "manhole",
+        "capacity": 130.9,
+        "depth_m": 1.57
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.932292,
+          18.968115
+        ]
+      },
+      "properties": {
+        "id": "N0187",
+        "type": "manhole",
+        "capacity": 449.4,
+        "depth_m": 3.05
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.862414,
+          19.112742
+        ]
+      },
+      "properties": {
+        "id": "N0188",
+        "type": "junction",
+        "capacity": 70.2,
+        "depth_m": 4.52
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.811517,
+          19.005983
+        ]
+      },
+      "properties": {
+        "id": "N0189",
+        "type": "manhole",
+        "capacity": 60.8,
+        "depth_m": 3.35
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.796368,
+          18.972871
+        ]
+      },
+      "properties": {
+        "id": "N0190",
+        "type": "inlet",
+        "capacity": 94.7,
+        "depth_m": 2.09
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.94671,
+          18.943068
+        ]
+      },
+      "properties": {
+        "id": "N0191",
+        "type": "manhole",
+        "capacity": 119.4,
+        "depth_m": 4.83
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.911329,
+          18.937676
+        ]
+      },
+      "properties": {
+        "id": "N0192",
+        "type": "junction",
+        "capacity": 196.4,
+        "depth_m": 1.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.792711,
+          18.98921
+        ]
+      },
+      "properties": {
+        "id": "N0193",
+        "type": "manhole",
+        "capacity": 114.1,
+        "depth_m": 4.63
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.960381,
+          19.020205
+        ]
+      },
+      "properties": {
+        "id": "N0194",
+        "type": "inlet",
+        "capacity": 104.4,
+        "depth_m": 2.21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.883385,
+          19.104412
+        ]
+      },
+      "properties": {
+        "id": "N0195",
+        "type": "junction",
+        "capacity": 388.6,
+        "depth_m": 2.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.843217,
+          18.977715
+        ]
+      },
+      "properties": {
+        "id": "N0196",
+        "type": "manhole",
+        "capacity": 298.9,
+        "depth_m": 1.73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.82376,
+          19.032998
+        ]
+      },
+      "properties": {
+        "id": "N0197",
+        "type": "manhole",
+        "capacity": 448.8,
+        "depth_m": 2.44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.826653,
+          19.140039
+        ]
+      },
+      "properties": {
+        "id": "N0198",
+        "type": "junction",
+        "capacity": 299.6,
+        "depth_m": 4.25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.872576,
+          19.097298
+        ]
+      },
+      "properties": {
+        "id": "N0199",
+        "type": "inlet",
+        "capacity": 430.8,
+        "depth_m": 3.25
+      }
+    }
+  ]
+}

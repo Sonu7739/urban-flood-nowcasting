@@ -1,0 +1,40 @@
+{
+  "best_model": "LightGBM",
+  "rmse": 2.5457,
+  "mae": 2.0388,
+  "r2": 0.9351,
+  "features": [
+    "rainfall_mm_hr",
+    "elevation",
+    "slope",
+    "curvature",
+    "flow_accumulation",
+    "distance_to_drain",
+    "drain_capacity",
+    "impervious_ratio",
+    "road_width",
+    "historical_flood_score"
+  ],
+  "n_train": 400,
+  "n_test": 100,
+  "all_models": [
+    {
+      "name": "XGBoost",
+      "rmse": 3.0527,
+      "mae": 2.3491,
+      "r2": 0.9067
+    },
+    {
+      "name": "LightGBM",
+      "rmse": 2.5457,
+      "mae": 2.0388,
+      "r2": 0.9351
+    },
+    {
+      "name": "RandomForest",
+      "rmse": 3.3168,
+      "mae": 2.5744,
+      "r2": 0.8899
+    }
+  ]
+}
