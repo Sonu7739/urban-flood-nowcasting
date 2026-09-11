@@ -4,8 +4,8 @@ from sqlalchemy.orm import declarative_base
 
 env_db = os.environ.get("DATABASE_URL")
 
-if env_db and "postgresql" in env_db:
-    DATABASE_URL = env_db.replace("postgresql://", "postgresql+asyncpg://")
+if env_db and ("postgres://" in env_db or "postgresql://" in env_db):
+    DATABASE_URL = env_db.replace("postgres://", "postgresql+asyncpg://").replace("postgresql://", "postgresql+asyncpg://")
 else:
     # Fallback to SQLite (works out of the box anywhere without requiring a running Postgres server)
     DATABASE_URL = "sqlite+aiosqlite:///./ufns.db"

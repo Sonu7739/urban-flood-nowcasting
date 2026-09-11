@@ -1,11 +1,11 @@
 {
   "rewrites": [
     {
-      "source": "/api/(.*)",
-      "destination": "https://urban-flood-nowcasting-fmwo.onrender.com/api/$1"
+      "source": "/api/:path*",
+      "destination": "https://urban-flood-nowcasting-fmwo.onrender.com/api/:path*"
     },
     {
-      "source": "/(.*)",
+      "source": "/:path*",
       "destination": "/index.html"
     }
   ]
