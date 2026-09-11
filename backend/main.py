@@ -27,6 +27,9 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
+from fastapi.middleware.cors import CORSMiddleware
+
+
 import numpy as np
 import uvicorn
 from fastapi import BackgroundTasks, Depends, FastAPI, HTTPException, WebSocket, WebSocketDisconnect
@@ -116,10 +119,17 @@ app = FastAPI(
 # ─── CORS ─────────────────────────────────────────────────────────────────────
 # Auth uses JWT Bearer tokens (not cookies) so allow_credentials is not needed.
 # allow_origins=["*"] is safe here.
+# ─── CORS ─────────────────────────────────────────────────────────────────────
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=False,
+    allow_origins=[
+        "https://urban-flood-nowcasting-trlo-phi.vercel.app",
+        "https://urban-flood-nowcasting-rust.vercel.app",
+        "https://urban-flood-nowcasting-git-main-sonu-s-team.vercel.app",
+        "http://localhost:5173",
+    ],
+    allow_origin_regex=r"https://urban-flood-nowcasting.*\.vercel\.app",
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
